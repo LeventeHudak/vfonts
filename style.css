@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Focus Sans';
-  /*  src: url( ); */
+    src: url('https://github.com/LeventeHudak/vfonts/raw/master/FocusSansGX.ttf');
  }
 
 .doboz {
@@ -16,7 +16,7 @@
     color: #CBCBCB;
 }
 
-.word_split span:hover {
+.word_split {
     font-family: "Focus Sans";
     font-variation-settings: 'wght' 700, 'wdth' 10;
     transition: all 250ms;
@@ -24,5 +24,8 @@
 }
 
 .test {
-  color: red;
+    font-family: "Focus Sans";
+    font-variation-settings: 'wght' 700, 'wdth' 10;
+    transition: all 250ms;
+    color: black;
 }
