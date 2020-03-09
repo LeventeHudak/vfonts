@@ -16,16 +16,9 @@
     color: #CBCBCB;
 }
 
-.word_split {
-    font-family: "Focus Sans";
-    font-variation-settings: 'wght' 700, 'wdth' 10;
-    transition: all 250ms;
-    color: black;
-}
-
 .test {
     font-family: "Focus Sans";
     font-variation-settings: 'wght' 700, 'wdth' 10;
-    transition: all 250ms;
+    transition: all 1000ms;
     color: black;
 }
