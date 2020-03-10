@@ -23,11 +23,11 @@ const tokenizeTextByWords = (container: Element) => {
       const selectedEl = event.currentTarget as Element;
       
       if (selectedEl.previousElementSibling) {
-        selectedEl.previousElementSibling.classList.toggle('test');
+        selectedEl.previousElementSibling.classList.toggle('test1');
       }
 
-      if (selectedEl.nextElementSibling) {
-        selectedEl.nextElementSibling.classList.toggle('test');
+      if (selectedEl.previousElementSibling.previousElementSibling) {
+        selectedEl.previousElementSibling.previousElementSibling.classList.toggle('test2');
       }
     });
 
@@ -38,11 +38,11 @@ const tokenizeTextByWords = (container: Element) => {
       const selectedEl = event.currentTarget as Element;
 
       if (selectedEl.previousElementSibling) {
-        selectedEl.previousElementSibling.classList.toggle('test');
+        selectedEl.previousElementSibling.classList.toggle('test1');
       }
 
-      if (selectedEl.nextElementSibling) {
-        selectedEl.nextElementSibling.classList.toggle('test');
+      if (selectedEl.previousElementSibling.previousElementSibling) {
+        selectedEl.previousElementSibling.previousElementSibling.classList.toggle('test2');
       }
     });
 

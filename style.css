@@ -16,9 +16,16 @@
     color: #CBCBCB;
 }
 
-.test {
+.test1 {
     font-family: "Focus Sans";
-    font-variation-settings: 'wght' 700, 'wdth' 10;
-    transition: all 1000ms;
+    font-variation-settings: 'wght' 900, 'wdth' 20;
+    transition: all 750ms;
     color: black;
+}
+
+.test2 {
+    font-family: "Focus Sans";
+    font-variation-settings: 'wght' 400, 'wdth' 10;
+    transition: all 750ms;
+    color: rgb(133, 133, 133);
 }
