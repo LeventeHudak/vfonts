@@ -18,14 +18,14 @@
 
 .test1 {
     font-family: "Focus Sans";
-    font-variation-settings: 'wght' 900, 'wdth' 20;
-    transition: all 750ms;
+    font-variation-settings: 'wght' 900, 'wdth' 10;
+    transition: all 350ms;
     color: black;
 }
 
 .test2 {
     font-family: "Focus Sans";
     font-variation-settings: 'wght' 400, 'wdth' 10;
-    transition: all 750ms;
+    transition: all 350ms;
     color: rgb(133, 133, 133);
 }

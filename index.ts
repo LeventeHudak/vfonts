@@ -26,7 +26,7 @@ const tokenizeTextByWords = (container: Element) => {
         selectedEl.previousElementSibling.classList.toggle('test1');
       }
 
-      if (selectedEl.previousElementSibling.previousElementSibling) {
+      if (selectedEl.previousElementSibling && selectedEl.previousElementSibling.previousElementSibling) {
         selectedEl.previousElementSibling.previousElementSibling.classList.toggle('test2');
       }
     });
@@ -41,7 +41,7 @@ const tokenizeTextByWords = (container: Element) => {
         selectedEl.previousElementSibling.classList.toggle('test1');
       }
 
-      if (selectedEl.previousElementSibling.previousElementSibling) {
+      if (selectedEl.previousElementSibling && selectedEl.previousElementSibling.previousElementSibling) {
         selectedEl.previousElementSibling.previousElementSibling.classList.toggle('test2');
       }
     });
